@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/username/my-laravel-project.git'
+                git 'https://github.com/farisRajendra/test-jenkins.git'
             }
         }
 
